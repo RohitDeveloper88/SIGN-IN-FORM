@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="form-container sign-up">
+        <form>
+            <h1>Create Account</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><ion-icon name="logo-google"></ion-icon><ion-icon name="logo-facebook"></ion-icon><ion-icon name="logo-github"></ion-icon><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <span>or use your email for registeration</span>
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="password">
+            <button>Sign Up</button>
+        </form>
+    </div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="https://google.com" class="icon e"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://facebook.com" class="icon e"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://x.com" class="icon e"><ion-icon name="logo-twitter"></ion-icon></a>
+                   <a href="https://linkedin.com" class="icon e"> <ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <a href="#">Forget Your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+         <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features.</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features.</p>
+                    <button class="hidden" id="Register">Sign Up</button>
+                </div>
+            </div>
+         </div>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
